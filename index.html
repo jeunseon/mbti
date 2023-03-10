@@ -9,7 +9,7 @@
     <meta name="description" content="inflearn 십이간지 연애유형">
     <!-- sns share -->
     <meta property="og:url" content="https://mbti-inflearn.netlify.app" />
-    <meta property="og:title" content="inflearn 십이간지 연애유형" />
+    <meta property="og:title" content="십이간지 연애유형" />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="img/share.png" />
     <meta property="og:description" content="십이간지로 알아보는 연애유형" />
@@ -26,6 +26,13 @@
     <link rel="stylesheet" href="./css/animation.css">
     <script src="./js/data.js" defer></script>
     <script src="./js/start.js" defer></script>
+
+    <script src="./js/share.js" defer></script>
+    <script src="https://t1.kakaocdn.net/kakao_js_sdk/${VERSION}/kakao.min.js" integrity="${INTEGRITY_VALUE}" crossorigin="anonymous"></script>
+    <script>
+        Kakao.init('7e2da57ad51c5eef36bac92c25e68e1f');
+        Kakao.isInitialized();
+    </script>
 </head>
 <body>
     <div class="container">
@@ -50,7 +57,7 @@
             <div class="resultName"></div>
             <div id="resultImg" class="col-lg-6 col-md-6 col-sm-6 col-12 mx-auto my-3"></div>
             <div class="resultDesc"></div>
-            <button type="button" class="btn mt-3 py-2 px-3 kakao">공유하기</button>
+            <button type="button" class="btn mt-3 py-2 px-3 kakao" onclick="js:kakaoShare()">공유하기</button>
         </section>
     </div>
     
