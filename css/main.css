@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* default */
+*{font-family: 'Nanum Pen Script', cursive;}
+body{background-color: pink;}
+/* main section */
+#main{background-color: whitesmoke; width: 80%; text-align: center; border-radius: 20px;}
+#main p{font-size: 20px;}
+
+/* qna section */
+#qna{display: none;}
+#qna .qBox{background-color: whitesmoke; text-align: center; border-radius: 20px; font-size: 24px; width: 80%;}
+#qna .answerList{background-color: whitesmoke; border-radius: 20px; display: block; width: 80%; border: 0px; font-size: 20px;}
+#qna .answerList:hover, #qna .answerList:focus{background-color: pink; color: whitesmoke; box-shadow: 0px 3px 5px 1px rgba(0,0,0,.3);}
+/* 상태바 */
+#qna .status{width: 80%; height: 20px; background-color: #fff; border-radius: 20px;}
+#qna .status .statusBar{height: 100%; border-radius: 20px; /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#febbbb+0,fe9090+45,ff5c5c+100;Red+3D+%231 */
+    background: #febbbb; /* Old browsers */
+    background: -moz-linear-gradient(top,  #febbbb 0%, #fe9090 45%, #ff5c5c 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #febbbb 0%,#fe9090 45%,#ff5c5c 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #febbbb 0%,#fe9090 45%,#ff5c5c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#febbbb', endColorstr='#ff5c5c',GradientType=0 ); /* IE6-9 */
+    }
+
+/* result section */
+#result{display: none; background-color: whitesmoke; width: 80%; text-align: center; border-radius: 20px;}
+#result .resultDesc{font-size: 20px;}
+#result .kakao{color: #fff; background-color: #fee500; font-size: 20px; border: 0px; border-radius: 10px;}
+#result .kakao:hover, #result .kakao:focus{background-color: whitesmoke; color: #fee500;}
