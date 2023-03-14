@@ -26,3 +26,4 @@ body{background-color: pink;}
 #result .resultDesc{font-size: 20px;}
 #result .kakao{color: #fff; background-color: #fee500; font-size: 20px; border: 0px; border-radius: 10px;}
 #result .kakao:hover, #result .kakao:focus{background-color: whitesmoke; color: #fee500;}
+#shareResult{background-color: whitesmoke; width: 80%; text-align: center; border-radius: 20px;}
